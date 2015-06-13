@@ -38,6 +38,11 @@ var mixins = require('mixins-decorator');
 function Foo() {}
 
 mixins(mixin1, mixin2)(Foo);
+
+// Or, with ES6 classes
+
+@mixins(mixin1, mixin2)
+class Foo {}
 ```
 
 ## License
