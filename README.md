@@ -1,8 +1,8 @@
 # Apply mixins to your JavaScript classes
 
-With the `mixins` modules, you get the reap the benefits of mixins.
+With the `mixins-decorator` modules, you get the reap the benefits of mixins.
 
-```
+```javascript
 var mixin1 = { foo: function () { console.log('foo'); } };
 var mixin2 = { bar: function () { console.log('bar'); } };
 
@@ -22,16 +22,16 @@ foo.bar(); // bar
 
 ## Usage
 
-Install `mixins` using npm:
+Install `mixins-decorator` using npm:
 
 ```shell
-npm install mixins
+npm install mixins-decorator
 ```
 
 Then, use it in your code like so:
 
 ```javascript
-var mixins = require('mixins');
+var mixins = require('mixins-decorator');
 
 // ... Declare and define some mixins here ...
 
@@ -42,4 +42,4 @@ mixins(mixin1, mixin2)(Foo);
 
 ## License
 
-`mixins` is [ISC Licensed](https://github.com/shovon/mixins/blob/master/LICENSE)
+`mixins-decorator` is [ISC Licensed](https://github.com/shovon/mixins/blob/master/LICENSE)
