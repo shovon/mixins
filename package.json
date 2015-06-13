@@ -1,0 +1,29 @@
+{
+  "name": "mixins",
+  "version": "1.0.0",
+  "description": "Apply mixins to your classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babelhook",
+    "bundle": "babel --stage 0 src/index.js > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shovon/mixins.git"
+  },
+  "keywords": [
+    "mixins",
+    "classes"
+  ],
+  "author": "Salehen Shovon Rahman <sal@linux.com> (http://shovon.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shovon/mixins/issues"
+  },
+  "homepage": "https://github.com/shovon/mixins#readme",
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5"
+  }
+}
